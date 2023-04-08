@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { StyleSheet, Text, TextInput, View, StyleSheet } from "react-native";
+import { StyleSheet, Text, TextInput, View } from "react-native";
 
 export default class Greeting extends Component {
   constructor(props) {
     super(props);
-    this.props = { name: "" };
+    this.state = { name: "" };
   }
 
   render() {
